@@ -25,7 +25,7 @@ Make sure that the script is in the same folder as the data file: srep00196-s2.c
 
 Note that on my machine, this program takes around one minute or so to complete.
 
-### Design choices
+### Design choices -- predict_meals.py
 ##### Clustering (or lack of)
 One major design decision was to NOT cluster the yummly data like the srep data.
 I felt that the yummly data actually provided perfect clusters for me (the cuisine field).
@@ -64,8 +64,7 @@ and chose the first 5 meals (the 5 meals with smallest distances).
 
 This seemed to give promising results.
 
-### Clustering Process / Justification
-
+### Design choices -- cluster_meals.py
 The pipeline for cluster_meals.py is as follows:
 
 data-extraction --> vectorize --> cluster --> dimensionality-reduction --> visualize
