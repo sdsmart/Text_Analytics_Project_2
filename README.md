@@ -4,6 +4,7 @@ The purpose of this project is to cluster and visualize various food related dat
 in some predefined datasets using some different machine learning techniques.
 
 ### Run Instructions
+<hr />
 Clone the repository and run either the cluster_meals.py or predict_meals.py script.
 
 #### For predict_meals.py
@@ -26,6 +27,7 @@ Make sure that the script is in the same folder as the data file: srep00196-s2.c
 Note that on my machine, this program takes around one minute or so to complete.
 
 ### Design choices
+<hr />
 #### For predict_meals.py
 ##### Clustering (or lack of)
 One major design decision was to NOT cluster the yummly data like the srep data.
