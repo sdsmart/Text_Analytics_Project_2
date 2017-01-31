@@ -6,7 +6,7 @@ in some predefined datasets using some different machine learning techniques.
 ### Run Instructions
 Clone the repository and run either the cluster_meals.py or predict_meals.py script.
 
-##### For predict_meals.py
+#### For predict_meals.py
 Make sure that the script is in the same folder as the data file: yummly.json
 
 On my machine, this program takes around 10 seconds to load the data, all other
@@ -20,12 +20,13 @@ use underscores. Here is an example:
 
 romain_lettuce purple_onion garlic seasoning olive_oil salt mushrooms
 
-##### For cluster_meals.py
+#### For cluster_meals.py
 Make sure that the script is in the same folder as the data file: srep00196-s2.csv
 
 Note that on my machine, this program takes around one minute or so to complete.
 
-### Design choices -- predict_meals.py
+### Design choices
+#### For predict_meals.py
 ##### Clustering (or lack of)
 One major design decision was to NOT cluster the yummly data like the srep data.
 I felt that the yummly data actually provided perfect clusters for me (the cuisine field).
@@ -64,7 +65,7 @@ and chose the first 5 meals (the 5 meals with smallest distances).
 
 This seemed to give promising results.
 
-### Design choices -- cluster_meals.py
+#### For cluster_meals.py
 The pipeline for cluster_meals.py is as follows:
 
 data-extraction --> vectorize --> cluster --> dimensionality-reduction --> visualize
