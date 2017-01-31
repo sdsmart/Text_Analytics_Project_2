@@ -6,7 +6,7 @@ in some predefined datasets using some different machine learning techniques.
 ### Run Instructions
 Clone the repository and run either the cluster_meals.py or predict_meals.py script.
 
-#### For predict_meals.py
+#### === For predict_meals.py ===
 Make sure that the script is in the same folder as the data file: yummly.json
 
 On my machine, this program takes around 10 seconds to load the data, all other
@@ -20,7 +20,7 @@ use underscores. Here is an example:
 
 romain_lettuce purple_onion garlic seasoning olive_oil salt mushrooms
 
-#### For cluster_meals.py
+#### === For cluster_meals.py ===
 Make sure that the script is in the same folder as the data file: srep00196-s2.csv
 
 Note that on my machine, this program takes around one minute or so to complete.
